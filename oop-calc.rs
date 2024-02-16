@@ -4,7 +4,7 @@ struct CalcNumber {
 
 impl CalcNumber {
   fn new(value: u32) -> CalcNumber {
-    CalcNumber { value }
+    return CalcNumber { value }
   }
 
   fn sum (&self, value_to_sum: u32) -> u32 {
